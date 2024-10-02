@@ -1,11 +1,11 @@
 {
-  "name": "storageland",
+  "name": "Storageland",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://taraskachmar2022.github.io/Storageland/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /storageland/"
+    "build": "parcel build src/*.html --public-url /Storageland/"
   },
   "repository": {
     "type": "git",
