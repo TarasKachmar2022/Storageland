@@ -1,21 +1,21 @@
 {
-  "name": "Storageland",
+  "name": "storageland",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://taraskachmar2022.github.io/Storageland/",
+  "homepage": "https://taraskachmar2022.github.io/storageland/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Storageland/"
+    "build": "parcel build src/*.html --public-url /storageland/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TarasKachmar2022/Storageland.git"
+    "url": "git+https://github.com/TarasKachmar2022/storageland.git"
   },
   "keywords": [],
   "author": "Taras Kachmar <kachmar.taras@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TarasKachmar2022/Storageland/issues"
+    "url": "https://github.com/TarasKachmar2022/storageland/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
