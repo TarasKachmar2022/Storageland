@@ -1,0 +1,17 @@
+:root {
+  --mobile: 375px;
+  --tablet: 744px;
+  --desktop: 1440px;
+  --large-screen: 1920px;
+  // Fonts
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  // Text colors
+  --main-txt-cl: #000000;
+  // Icons color
+  --icon-menu-cl: #000000;
+  // Duration
+  --duration: 250ms;
+  // Timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

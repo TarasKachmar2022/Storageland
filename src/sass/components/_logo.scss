@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  align-items: end;
+}
+
+.logo__img {
+  width: 36px;
+  height: 31px;
+
+  @media screen and (min-width: 744px) {
+    width: 37px;
+    height: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 43px;
+  }
+}
+
+.logo__text {
+  position: relative;
+  bottom: -5px;
+  font-weight: 800;
+  font-size: 17px;
+  margin-left: 4px;
+
+  @media screen and (min-width: 744px) {
+    font-size: 21px;
+    margin-left: 8px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    margin-left: 11px;
+  }
+}
