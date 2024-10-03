@@ -8,3 +8,13 @@
   align-items: center;
   justify-content: center;
 }
+
+%about__thumb {
+  position: relative;
+  background-color: var(--background-light-cl);
+}
+
+%descr {
+  font-size: 16px;
+  line-height: 1.4;
+}

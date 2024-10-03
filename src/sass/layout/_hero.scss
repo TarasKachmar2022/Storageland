@@ -1,5 +1,5 @@
 .hero__container {
-  @include section(38, 40);
+  @include section(38, 51);
   position: relative;
   background-color: var(--background-light-cl);
 
@@ -26,7 +26,7 @@
     width: 85px;
     height: 95px;
     top: -35;
-    left: 650;
+    left: 655;
   }
 }
 
@@ -41,17 +41,17 @@
   @media screen and (min-width: 744px) {
     font-size: 63px;
     line-height: 1.27;
-    padding-left: 20px;
+    padding-left: 40px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 72px;
     line-height: 1.26;
-    padding-left: 48px;
+    padding-left: 71px;
   }
   @media screen and (min-width: 1920px) {
     font-size: 96px;
     line-height: 1.25;
-    padding-left: 63px;
+    padding-left: 93px;
   }
 }
 
