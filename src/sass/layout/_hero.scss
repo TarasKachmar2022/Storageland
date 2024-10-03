@@ -1,0 +1,111 @@
+.hero__container {
+  @include section(38, 40);
+  position: relative;
+  background-color: var(--background-light-cl);
+
+  @media screen and (min-width: 744px) {
+    @include section(36, 49);
+  }
+  @media screen and (min-width: 1440px) {
+    @include section(48, 40);
+  }
+  @media screen and (min-width: 1920px) {
+    @include section(68, 40);
+  }
+}
+
+.hero__img {
+  position: absolute;
+  top: -14;
+  right: 90;
+
+  @media screen and (min-width: 744px) and (max-width: 1919px) {
+    display: none;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 85px;
+    height: 95px;
+    top: -35;
+    left: 650;
+  }
+}
+
+.hero__box {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  padding-left: 28px;
+
+  @media screen and (min-width: 744px) {
+    font-size: 63px;
+    line-height: 1.27;
+    padding-left: 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 72px;
+    line-height: 1.26;
+    padding-left: 48px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 96px;
+    line-height: 1.25;
+    padding-left: 63px;
+  }
+}
+
+.hero__wrap {
+  @media screen and (min-width: 744px) {
+    display: flex;
+  }
+}
+
+.hero__thumb:first-child {
+  display: inline-block;
+  background-color: white;
+  height: 44px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin-left: -13px;
+  transform: rotate(-1.81deg);
+
+  @media screen and (min-width: 744px) {
+    height: 67px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 76px;
+  }
+  @media screen and (min-width: 1920px) {
+    height: 101px;
+  }
+}
+
+.hero__descr:first-child {
+  transform: rotate(1.81deg);
+}
+
+.hero__thumb:last-child {
+  display: inline-block;
+  text-align: center;
+  background-color: #ebd96b;
+  height: 44px;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-left: -17px;
+  transform: rotate(-1.81deg);
+
+  @media screen and (min-width: 744px) {
+    height: 70px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 80px;
+  }
+  @media screen and (min-width: 1920px) {
+    height: 106px;
+  }
+}
+
+.hero__descr:last-child {
+  transform: rotate(1.81deg);
+}
