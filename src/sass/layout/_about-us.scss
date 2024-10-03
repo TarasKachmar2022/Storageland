@@ -1,4 +1,4 @@
-.about-me__thumb {
+.about-us__thumb {
   @include section(65, 44);
   @extend %about__thumb;
   padding-right: 29px;
@@ -6,36 +6,36 @@
   margin-bottom: 30px;
 }
 
-.about-me__description {
+.about-us__description {
   @extend %descr;
 }
 
-.about-me__subtitle {
+.about-us__subtitle {
   @extend .subtitle;
   font-size: 24px;
   margin-bottom: 13px;
 }
 
-.about-me__wrap {
+.about-us__wrap {
   margin: 0 auto;
   width: 120px;
   margin-bottom: 18px;
 }
 
-.about-me__description:not(:last-child) {
+.about-us__description:not(:last-child) {
   margin-bottom: 18px;
 }
 
-.about-me__description.last {
+.about-us__description.last {
   margin-bottom: 56px;
 }
 
-.about-me__img {
+.about-us__img {
   margin-bottom: 5px;
   margin-left: auto;
 }
 
-.about-me__partner {
+.about-us__partner {
   font-size: 13px;
   line-height: 1.2;
   letter-spacing: 0.05em;
