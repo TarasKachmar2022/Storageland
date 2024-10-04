@@ -14,6 +14,7 @@
   }
   @media screen and (min-width: 1440px) {
     padding-bottom: 94px;
+    margin-bottom: 45px;
   }
   @media screen and (min-width: 1920px) {
     padding-bottom: 111px;
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     gap: 28px;
+    margin-bottom: 18px;
   }
   @media screen and (min-width: 1440px) {
     gap: 71px;
@@ -60,7 +62,7 @@
 }
 
 .about-company__description.first {
-  @media screen and (max-width: 1439px) {
+  @media screen and (max-width: 743px) {
     margin-bottom: 18px;
   }
   @media screen and (min-width: 744px) {
@@ -75,9 +77,12 @@
 }
 
 .about-company__description.first:not(:last-child) {
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 744px) {
     margin-bottom: 18px;
   }
+  // @media screen and (min-width: 1440px) {
+  //   margin-bottom: 18px;
+  // }
 }
 
 .about-company__description.last {

@@ -4,11 +4,34 @@
   padding-right: 29px;
   padding-left: 28px;
   margin-bottom: 30px;
+
+  @media screen and (min-width: 744px) {
+    @include section(50, 50);
+    padding-right: 41px;
+    padding-left: 41px;
+    margin-bottom: 55px;
+  }
+  @media screen and (min-width: 1440px) {
+    @include section(60, 71);
+    padding-right: 70px;
+    margin-bottom: 57px;
+    padding-left: 70px;
+  }
+  @media screen and (min-width: 1920px) {
+    @include section(60, 71);
+    padding-right: 93px;
+    margin-bottom: 57px;
+    padding-left: 93px;
+  }
 }
 
 .about-us__wrapper {
+  @media screen and (max-width: 1439px) {
+    margin-bottom: 18px;
+  }
   @media screen and (min-width: 1440px) {
     display: flex;
+    gap: 154px;
   }
 }
 
@@ -20,7 +43,17 @@
   @extend .subtitle;
   font-size: 24px;
   margin-bottom: 13px;
+
+  @media screen and (min-width: 744px) {
+    margin-bottom: 20px;
+  }
 }
+
+// .about-us__author {
+//   @media screen and (min-width: 1440px) {
+//     // font-size: 16px;
+//   }
+// }
 
 .about-us__wrap {
   max-width: 120px;
@@ -29,7 +62,8 @@
     margin: 0 auto;
     margin-bottom: 18px;
   }
-  @media screen and (min-width: 744px) {
+  @media screen and (min-width: 744px) and (max-width: 1439px) {
+    margin-bottom: 40px;
   }
 }
 
@@ -38,32 +72,54 @@
 }
 
 .about-us__description.first {
+  @media screen and (min-width: 744px) {
+    max-width: 340px;
+  }
   @media screen and (min-width: 1440px) {
     max-width: 413px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 548px;
   }
 }
 
 .about-us__description.last {
-  margin-bottom: 56px;
+  @media screen and (min-width: 744px) {
+    max-width: 338px;
+    margin-bottom: 0;
+  }
   @media screen and (min-width: 1440px) {
     max-width: 418px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 554px;
   }
 }
 
 .about-us__box {
+  // margin-bottom: 56px;
+
   @media screen and (min-width: 744px) {
     display: flex;
     align-items: last baseline;
+    justify-content: space-between;
     flex-direction: row-reverse;
   }
   @media screen and (min-width: 1440px) {
     justify-content: space-between;
+    margin-top: -197px;
   }
 }
 
 .about-us__img {
   margin-bottom: 5px;
-  margin-left: auto;
+
+  @media screen and (max-width: 743px) {
+    margin-left: auto;
+  }
+  @media screen and (min-width: 744px) {
+    margin-right: auto;
+  }
 }
 
 .about-us__partner {
