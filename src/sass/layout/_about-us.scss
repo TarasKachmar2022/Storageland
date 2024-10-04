@@ -6,6 +6,12 @@
   margin-bottom: 30px;
 }
 
+.about-us__wrapper {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
+}
+
 .about-us__description {
   @extend %descr;
 }
@@ -17,17 +23,42 @@
 }
 
 .about-us__wrap {
-  margin: 0 auto;
-  width: 120px;
-  margin-bottom: 18px;
+  max-width: 120px;
+
+  @media screen and (max-width: 743px) {
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+  @media screen and (min-width: 744px) {
+  }
 }
 
 .about-us__description:not(:last-child) {
   margin-bottom: 18px;
 }
 
+.about-us__description.first {
+  @media screen and (min-width: 1440px) {
+    max-width: 413px;
+  }
+}
+
 .about-us__description.last {
   margin-bottom: 56px;
+  @media screen and (min-width: 1440px) {
+    max-width: 418px;
+  }
+}
+
+.about-us__box {
+  @media screen and (min-width: 744px) {
+    display: flex;
+    align-items: last baseline;
+    flex-direction: row-reverse;
+  }
+  @media screen and (min-width: 1440px) {
+    justify-content: space-between;
+  }
 }
 
 .about-us__img {

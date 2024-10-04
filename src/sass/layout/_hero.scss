@@ -7,10 +7,10 @@
     @include section(36, 49);
   }
   @media screen and (min-width: 1440px) {
-    @include section(48, 40);
+    @include section(48, 59);
   }
   @media screen and (min-width: 1920px) {
-    @include section(68, 40);
+    @include section(68, 85);
   }
 }
 

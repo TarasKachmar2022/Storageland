@@ -2,4 +2,14 @@
   font-weight: 800;
   font-size: 20px;
   line-height: 1.28;
+
+  @media screen and (min-width: 744px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 36px;
+  }
 }
