@@ -13,8 +13,16 @@
   gap: 47px;
 }
 
-// .site-nav__link {
-// }
+.site-nav__link {
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
+}
 
 // .site-nav {
 //   @extend %align-list;

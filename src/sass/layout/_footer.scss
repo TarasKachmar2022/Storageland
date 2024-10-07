@@ -226,9 +226,17 @@
 .footer__link {
   font-size: 20px;
   color: var(--footer-link-txt-cl);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 
   @media screen and (min-width: 1440px) {
     font-size: 24px;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
   }
 }
 
@@ -249,6 +257,19 @@
 
 .address__item:first-child {
   margin-bottom: 15px;
+}
+
+.footer__descr,
+.footer__number,
+.footer__mail {
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .footer__number {
