@@ -4,6 +4,8 @@
     display: block;
     width: 34px;
     height: 21px;
+    border: transparent;
+    background-color: transparent;
 
     &::before,
     &::after {

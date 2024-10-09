@@ -3,6 +3,9 @@
   line-height: 2.86;
   letter-spacing: 0.02em;
 
+  @media screen and (max-width: 743px) {
+    font-size: 24px;
+  }
   @media screen and (min-width: 1440px) {
     font-size: 24px;
   }
@@ -11,6 +14,11 @@
 .site-nav__list {
   display: flex;
   gap: 47px;
+
+  @media screen and (max-width: 743px) {
+    flex-direction: column;
+    gap: 14px;
+  }
 }
 
 .site-nav__link {

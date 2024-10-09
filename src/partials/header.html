@@ -1,36 +1,39 @@
-<header class="header">
-  <div class="header__container container">
-    <div class="header__thumb">
-      <a class="logo" href="./index.html">
-        <img
-          class="logo__img"
-          src="./images/logo/logo.svg"
-          alt="Logo"
-          width="36"
-          height="31"
-        />
-        <span class="logo__text" lang="en">Storageland spol. s r.o.</span>
-      </a>
-      <button
-        class="header__menu burger__btn"
-        type="button"
-        aria-label="Переключатель мобільного меню"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-        data-menu-btn
-      >
-        <span class="burger__icon"></span>
-      </button>
+<header class="header" id="header">
+  <div class="container header__container">
+    <div class="header__box">
+      <div class="header__thumb">
+        <a class="logo" href="./index.html">
+          <img
+            class="logo__img"
+            src="./images/logo/logo.svg"
+            alt="Logo"
+            width="36"
+            height="31"
+          />
+          <span class="logo__text" lang="en">Storageland spol. s r.o.</span>
+        </a>
+        <button
+          class="header__menu burger__btn"
+          type="button"
+          aria-label="Переключатель мобільного меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-menu-btn
+        >
+          <span class="burger__icon"></span>
+        </button>
+      </div>
     </div>
+
     <div class="mobile-menu" id="mobile-menu" data-menu>
       <div class="mobile-menu__container">
         <nav class="header__nav site-nav">
           <ul class="site-nav__list header-nav__list">
             <li>
-              <a class="site-nav__link" href="#">О nás</a>
+              <a class="site-nav__link" href="#header" data-link>О nás</a>
             </li>
             <li>
-              <a class="site-nav__link" href="#">Кontakty</a>
+              <a class="site-nav__link" href="#footer" data-link>Кontakty</a>
             </li>
           </ul>
         </nav>

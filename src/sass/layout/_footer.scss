@@ -215,11 +215,9 @@
   }
 }
 
-.footer__item:last-child {
-  margin-bottom: 10px;
-
-  @media screen and (min-width: 1440px) {
-    margin-bottom: 0;
+.footer__item:first-child {
+  @media screen and (max-width: 1439px) {
+    margin-bottom: 20px;
   }
 }
 

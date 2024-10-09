@@ -1,31 +1,38 @@
-.header {
-  @include section(24, 20);
-}
-
 .header__container {
+  position: relative;
+
+  @media screen and (max-width: 743px) {
+    padding: 0;
+  }
   @media screen and (min-width: 744px) {
     display: flex;
   }
 }
 
+.header__box {
+  @include section(24, 20);
+  position: relative;
+  background-color: #ffffff;
+  z-index: 10;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .header__thumb {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__menu {
-  border: transparent;
-  color: var(--icon-menu-cl);
-  background-color: transparent;
-
   @media screen and (min-width: 744px) {
     display: none;
   }
 }
 
 .header__nav {
-  position: relative;
-  bottom: -5px;
-  margin-left: auto;
+  @media screen and (min-width: 744px) {
+    margin-left: auto;
+  }
 }
